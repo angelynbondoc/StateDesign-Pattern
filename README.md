@@ -44,3 +44,7 @@ To improve code maintainability and flexibility:
    - Remove state-specific logic from the `VendingMachine` class.
    - Introduce a reference to the current `VendingMachineState` object.
    - Delegate actions like `selectItem`, `insertCoin`, `dispenseItem`, and `setOutOfOrder` to the current state object through its corresponding methods.
+
+
+### UML Diagram:
+![UML Diagram](https://github.com/angelynbondoc/StateDesign-Pattern/blob/main/Vending%20Machine_State%20Pattern%20Implementation_UML%20Diagram.png)
